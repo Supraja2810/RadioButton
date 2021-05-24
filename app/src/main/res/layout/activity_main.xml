@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT OPTION :"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BLUETOOTH"
+            android:textSize="25sp"
+            android:id="@+id/bluetooth"
+            android:layout_marginTop="10dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WIFI"
+            android:textSize="25sp"
+            android:id="@+id/wifi"
+            android:layout_marginTop="10dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BATTERY"
+            android:textSize="25sp"
+            android:id="@+id/battery"
+            android:layout_marginTop="10dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPEAKER"
+            android:textSize="25sp"
+            android:id="@+id/speaker"
+            android:layout_marginTop="10dp"/>
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:padding="20dp"
+        android:id="@+id/iv"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp" />
+
+
+</LinearLayout>
